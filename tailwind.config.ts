@@ -7,12 +7,14 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      'subtitlefont': ['Montserrat'],
+  },
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
-      },
+      colors: {
+        colorblack: 'rgb(41, 41, 41)',
+        colorblue: '#77B5FE',
+    },
     },
   },
   plugins: [],
