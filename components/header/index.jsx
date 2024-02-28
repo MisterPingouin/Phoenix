@@ -1,3 +1,4 @@
+'use client'
 import styles from './style.module.scss'
 import { useEffect, useState } from 'react';
 import Nav from './nav';
