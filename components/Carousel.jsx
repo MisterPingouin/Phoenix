@@ -41,7 +41,7 @@ const Carousel = () => {
 
   return (
     <div className="relative w-full overflow-hidden">
-      <div className="flex justify-center items-center min-h-[32vh]">
+      <div className="flex justify-center items-center min-h-[32vh] mb-8">
         {cardsData.map((card, index) => {
           let xTranslate = "0%";
           let scaleValue = 0.7; 

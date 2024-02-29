@@ -19,14 +19,14 @@ export default function Home() {
           className="bg-transparent" 
         />
       </div>
-      <div className="flex flex-col pt-6 p-10 text-colorblack">
+      <div className="flex flex-col pt-6 pb-6 p-10 text-colorblack">
 <p className=" text-sm mt-1">
 Que vous soyez particulier , entreprise , assurance , syndic… 
 nous mettons à votre disposition notre expérience de plus de trente ans.</p>
 <div className='flex justify-center items-center'>
 <Link 
           href="/contact" 
-          className="mt-4 inline-block bg-colorblue hover:bg-colorblack text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
+          className="mt-4 inline-block bg-colorblue hover:bg-sky-400 text-white font-bold py-2 px-4 rounded transition duration-300 ease-in-out"
         >
           Contactez-nous
         </Link>
