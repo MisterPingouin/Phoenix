@@ -1,5 +1,6 @@
 import Image from 'next/image'; 
 import Link from 'next/link';
+import Carousel from './../components/Carousel'
 
 export default function Home() {
   return (
@@ -30,6 +31,9 @@ nous mettons à votre disposition notre expérience de plus de trente ans.</p>
           Contactez-nous
         </Link>
         </div>
+</div>
+<div>
+<Carousel/>
 </div>
     </main>
   );

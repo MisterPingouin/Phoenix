@@ -13,7 +13,7 @@ const config: Config = {
     extend: {
       colors: {
         colorblack: 'rgb(41, 41, 41)',
-        colorblue: '#77B5FE',
+        colorblue: '#3B82F6',
     },
     },
   },
